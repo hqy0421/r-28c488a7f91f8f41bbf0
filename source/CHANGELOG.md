@@ -1,6 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- Multiset reconciliation helpers in the new ``clickhouse_sqlalchemy.reconcile``
+  package: NULL-aware full-row matching of two fact-table versions with
+  per-row and per-business-key cancellation reports, composable SQLAlchemy
+  statements, name-based column alignment and type-compatibility validation.
 
 ## [0.3.2] - 2024-06-12
 ### Added

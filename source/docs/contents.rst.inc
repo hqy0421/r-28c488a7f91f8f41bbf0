@@ -28,6 +28,7 @@ However default driver is still ``http``.
    connection
    features
    types
+   reconciliation
    migrations
 
 Additional Notes
